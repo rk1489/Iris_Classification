@@ -12,7 +12,7 @@ def classify(x):
     if len(x) == 0:
         return 'Unidentified Species'
     else:
-        return x
+        return x[0]
     
 def main():
     st.title("Customer Classifier ML App")
